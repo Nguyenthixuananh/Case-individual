@@ -3,11 +3,16 @@ session_start();
 
 include_once "Controller/NoteController.php";
 include_once "Controller/TypeController.php";
+include_once "Controller/AuthController.php";
 
 $noteController = new NoteController();
 $typeController = new TypeController();
+$authController = new AuthController();
 
 $page = $_GET["page"] ?? null;
+
+//$username = isset($_GET["username"]) ? $_GET["username"]:"";
+$username = $_SESSION["username"] ?? null;
 
 ?>
 
@@ -23,6 +28,9 @@ $page = $_GET["page"] ?? null;
 </head>
 <body>
 <div class="container">
+    <h4>Name: <?php echo $username?></h4>
+
+    <a type="button" class="btn btn-dark" href="index.php?page=logout">Logout</a>
 <!--    <div class="navbar">-->
 <!--        <a type="button" class="btn btn-info mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=note-list">Note</a>-->
 <!--        <a type="button" class="btn btn-info mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=type-list">Type</a>-->
@@ -31,6 +39,7 @@ $page = $_GET["page"] ?? null;
     <?php
     switch ($page) {
         case "note-list":
+//            $authController->checkAuth();
             $noteController->index();
             break;
 
@@ -90,6 +99,29 @@ $page = $_GET["page"] ?? null;
             }
 
             break;
+
+        case "login":
+            if ($_SERVER["REQUEST_METHOD"] == "GET") {
+                $authController->showFormLogin();
+            }else {
+                $authController->login($_REQUEST);
+            }
+            break;
+
+        case "logout":
+            $authController->logout();
+            break;
+
+        case "user-create":
+            if ($_SERVER["REQUEST_METHOD"] == "GET") {
+                //show form create
+                $authController->showFormCreate();
+            } else {
+                //tao san pham
+                $authController->create($_REQUEST);
+            }
+            break;
+
         default:
             $noteController->index();
     }

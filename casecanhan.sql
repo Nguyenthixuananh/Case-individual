@@ -58,3 +58,14 @@ CREATE VIEW noteTable AS
 SELECT `notes`.id, `types`.type_name as `type_name`, `notes`.title as `note_name`, `notes`.content as `note_content`
 FROM `notes`
          INNER join `types` on types.id = notes.type_id
+
+CREATE TABLE `users`(
+                        id INT(11) PRIMARY KEY AUTO_INCREMENT,
+                        name VARCHAR(255),
+                        email VARCHAR(255) UNIQUE,
+                        password VARCHAR(255)
+);
+INSERT INTO iNotesOfStudent.users (id, name, email, password)
+VALUES (1, 'Xuân Anh', 'xanh@gmail.com', '1234'),
+       (2, 'Wang Yibo', 'yibo@gmail.com', '5678'),
+       (3, 'Matsumoto Jun', 'mj@gmail.com', '4321')

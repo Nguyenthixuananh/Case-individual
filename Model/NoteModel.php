@@ -68,4 +68,5 @@ FROM `notes`
             echo $exception->getMessage();
         }
     }
+
 }
