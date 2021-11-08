@@ -57,7 +57,7 @@ class NoteController
     public function showFormUpdate()
     {
         $id = $_REQUEST["id"];
-        $product = $this->noteModel->getById($id);
+        $note = $this->noteModel->getById($id);
         include_once "View/note/update.php";
     }
 
@@ -65,8 +65,8 @@ class NoteController
     {
         $note = $this->noteModel->getById($id);
         $data = [
-            "title" => $request['title'],
-            "content" => $request['content'],
+            "title" => $request["title"],
+            "content" => $request["content"],
             "id" => $id
         ];
         $this->noteModel->edit($data);

@@ -1,6 +1,8 @@
 <div class="container-fluid">
-    <a type="button" class="btn btn-primary mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=type-create">ADD NEW TYPE</a>
-    <table class="table table-striped">
+    <div class="navbar">
+        <a type="button" class="btn btn-outline-secondary mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=note-list">Note</a>
+    </div>
+    <table class="table table-warning table-striped">
         <thead class="table-dark">
         <tr>
             <th>ID</th>
@@ -24,5 +26,6 @@
         <?php endif; ?>
         </tbody>
     </table>
+    <a type="button" class="btn btn-primary mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=type-create">ADD NEW TYPE</a>
 
 </div>

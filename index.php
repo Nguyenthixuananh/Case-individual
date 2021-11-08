@@ -23,10 +23,11 @@ $page = $_GET["page"] ?? null;
 </head>
 <body>
 <div class="container">
-    <div class="navbar">
-        <a href="index.php?page=note-list">Notes</a>
-        <a href="index.php?page=type-list">Type</a>
-    </div>
+<!--    <div class="navbar">-->
+<!--        <a type="button" class="btn btn-info mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=note-list">Note</a>-->
+<!--        <a type="button" class="btn btn-info mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=type-list">Type</a>-->
+<!---->
+<!--    </div>-->
     <?php
     switch ($page) {
         case "note-list":

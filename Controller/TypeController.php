@@ -27,14 +27,14 @@ class TypeController
             "type_name" => $data['type_name']
         ];
         $this->typeModel->create($data2);
-        header("location:index.php");
+        header("location:index.php?page=type-list");
     }
 
     public function deleteType($id)
     {
         if ($this->typeModel->getById($id) !== null) {
             $this->typeModel->delete($id);
-            header("location:index.php");
+            header("location:index.php?page=type-list");
         }
     }
 
@@ -47,7 +47,7 @@ class TypeController
     public function showFormUpdate()
     {
         $id = $_REQUEST["id"];
-        $product = $this->typeModel->getById($id);
+        $type = $this->typeModel->getById($id);
         include_once "View/type/update.php";
     }
 
@@ -59,7 +59,7 @@ class TypeController
             "id" => $id
         ];
         $this->typeModel->edit($data);
-        header("location:index.php");
+        header("location:index.php?page=type-list");
     }
 
 }

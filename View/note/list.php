@@ -1,5 +1,10 @@
 <div class="container-fluid">
-    <a type="button" class="btn btn-primary mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=note-create">ADD NEW NOTE</a>
+
+
+    <div class="navbar">
+        <a type="button" class="btn btn-outline-secondary mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=type-list">Type</a>
+    </div>
+
     <table class="table table-striped">
         <thead class="table-dark">
         <tr>
@@ -30,5 +35,6 @@
         <?php endif; ?>
         </tbody>
     </table>
+    <a type="button" class="btn btn-primary mt-3 mb-3 ps-5 pe-5 p-3" href="index.php?page=note-create">ADD NEW NOTE</a>
 
 </div>
