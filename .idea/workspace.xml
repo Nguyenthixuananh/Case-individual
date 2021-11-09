@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="524232d9-4fdf-4b77-babc-640699f3d2d3" name="Changes" comment="chua co login">
+      <change afterPath="$PROJECT_DIR$/View/Css/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Css/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Css/note-list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/auth/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/auth/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/note/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/note/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/note/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/type/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/type/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/note/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/type/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/type/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -22,6 +25,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/View/Css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -55,6 +66,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/View/Css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/View/note" />
       <recent name="$PROJECT_DIR$/Model/database" />
@@ -73,7 +87,7 @@
       <workItem from="1636332831068" duration="29390000" />
       <workItem from="1636373954894" duration="16933000" />
       <workItem from="1636409296837" duration="3681000" />
-      <workItem from="1636419980333" duration="635000" />
+      <workItem from="1636419980333" duration="13525000" />
     </task>
     <task id="LOCAL-00001" summary="chua co login">
       <created>1636363053643</created>

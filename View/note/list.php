@@ -7,7 +7,7 @@
         <a type="button" class="btn btn-outline-warning mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=type-list">Type</a>
     </div>
 
-    <table class="table table-striped">
+    <table class="table table-striped table table-hover">
         <thead class="table-dark">
         <tr>
             <th>ID</th>

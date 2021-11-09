@@ -127,7 +127,7 @@
 </head>
 <body>
 
-<h2>Login</h2>
+<h2 style="text-align: center; margin-top: 100px; font-family: 'Tibetan Machine Uni'"><strong>Login</strong></h2>
 
 
     <form method="post">
@@ -146,9 +146,9 @@
             </label>
         </div>
 
-        <div class="container" style="background-color:#f1f1f1">
+        <div class="container">
 <!--            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
-            <span class="psw"><a href="index.php?page=user-create">REGISTER </a>If you do not have an account, please register here</span>
+            <a href="index.php?page=user-create">REGISTER </a>If you do not have an account, please register here</span>
         </div>
     </form>
 <!--</div>-->

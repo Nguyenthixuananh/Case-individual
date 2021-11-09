@@ -10,62 +10,32 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container" style="width: 50%; ">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <form action="" method="post" role="form">
-                <legend>Register</legend>
+                <legend style="font-family: Arial, Helvetica, sans-serif; margin-top: 200px; text-align: center; font-size: 60px; color: black"><strong>Register</strong></legend>
                 <p>Please fill in this form to create an account.</p>
-
-
                 <div class="form-group">
-                    <label for="">User Name</label>
+                    <label style="font-size: 20px" for="">User Name:</label>
                     <input type="text" class="form-control" name="name">
                 </div>
                 <div class="form-group">
-                    <label for="">Email</label>
+                    <label style="font-size: 20px" for="">Email:</label>
                     <input type="text" class="form-control" name="email">
                 </div>
                 <div class="form-group">
-                    <label for="">Password</label>
+                    <label style="font-size: 20px" for="">Password:</label>
                     <input type="password" class="form-control" name="password">
                 </div>
                 <div class="form-group">
-                    <label for="">Repeat Password</label>
+                    <label style="font-size: 20px" for="">Repeat Password:</label>
                     <input type="password" class="form-control" name="rPassword">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="submit" class="btn btn-primary" style="margin-top: 50px; margin-left: 410px">Register</button>
             </form>
         </div>
     </div>
 </div>
 
-<!--<form class="row g-4" style="border: 1px solid black;-->
-<!--  padding: 60px 150px 100px 150px;-->
-<!--  background-color: lightblue;">-->
-<!--    <div class="col-md-8">-->
-<!--        <h1>Register</h1>-->
-<!--        <p>Please fill in this form to create an account.</p>-->
-<!--    </div>-->
-<!---->
-<!--    <div class="col-md-8">-->
-<!--        <label class="form-label">User Name</label>-->
-<!--        <input type="text" class="form-control" name="name">-->
-<!--    </div>-->
-<!--    <div class="col-8">-->
-<!--        <label class="form-label">Email</label>-->
-<!--        <input type="text" class="form-control"  name="email">-->
-<!--    </div>-->
-<!--    <div class="col-8">-->
-<!--        <label class="form-label">Password</label>-->
-<!--        <input type="password" class="form-control" name="password">-->
-<!--    </div>-->
-<!--    <div class="col-8">-->
-<!--        <label class="form-label">Repeat Password</label>-->
-<!--        <input type="password" class="form-control" name="rPassword">-->
-<!--    </div>-->
-<!--    <button class="col-8" type="submit" class="btn btn-primary">Register</button>-->
-<!---->
-<!---->
-<!--</form>-->

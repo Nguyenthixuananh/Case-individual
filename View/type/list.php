@@ -2,7 +2,7 @@
     <div class="navbar">
         <a type="button" class="btn btn-dark" href="index.php?page=logout">Logout</a>
 
-        <a type="button" class="btn btn-outline-warning mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=note-list">Note</a>
+        <a type="button" class="btn btn-toutline-warning mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=note-list">Note</a>
     </div>
     <table class="table align-middle">
         <thead class="table-info">
