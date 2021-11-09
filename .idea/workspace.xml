@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524232d9-4fdf-4b77-babc-640699f3d2d3" name="Changes" comment="chua co login">
-      <change afterPath="$PROJECT_DIR$/View/Css/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Css/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Css/note-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/auth/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/auth/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/auth/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/note/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/note/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/note/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/note/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/type/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/type/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="524232d9-4fdf-4b77-babc-640699f3d2d3" name="Changes" comment="chua co login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +74,7 @@
       <workItem from="1636332831068" duration="29390000" />
       <workItem from="1636373954894" duration="16933000" />
       <workItem from="1636409296837" duration="3681000" />
-      <workItem from="1636419980333" duration="13525000" />
+      <workItem from="1636419980333" duration="13827000" />
     </task>
     <task id="LOCAL-00001" summary="chua co login">
       <created>1636363053643</created>
