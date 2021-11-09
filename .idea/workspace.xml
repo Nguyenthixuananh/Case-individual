@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="524232d9-4fdf-4b77-babc-640699f3d2d3" name="Changes" comment="chua co login">
-      <change afterPath="$PROJECT_DIR$/Controller/AuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/UserModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/auth/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/auth/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45cda16a-c3b8-4771-a3e1-66b702e0956d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45cda16a-c3b8-4771-a3e1-66b702e0956d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45cda16a-c3b8-4771-a3e1-66b702e0956d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45cda16a-c3b8-4771-a3e1-66b702e0956d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45cda16a-c3b8-4771-a3e1-66b702e0956d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc2a469a-9363-433e-940c-a12ba58a3596.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cc2a469a-9363-433e-940c-a12ba58a3596.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/NoteModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/NoteModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casecanhan.sql" beforeDir="false" afterPath="$PROJECT_DIR$/casecanhan.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/auth/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/auth/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/note/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/note/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/note/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/type/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/type/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/type/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/type/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop-online" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,7 +71,9 @@
       <updated>1636292063303</updated>
       <workItem from="1636292064463" duration="10200000" />
       <workItem from="1636332831068" duration="29390000" />
-      <workItem from="1636373954894" duration="13558000" />
+      <workItem from="1636373954894" duration="16933000" />
+      <workItem from="1636409296837" duration="3681000" />
+      <workItem from="1636419980333" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="chua co login">
       <created>1636363053643</created>

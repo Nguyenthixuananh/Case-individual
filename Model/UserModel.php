@@ -2,6 +2,7 @@
 
 include_once "database/DB.php";
 
+
 class UserModel
 {
     private $table;
@@ -37,6 +38,7 @@ class UserModel
         $stmt->execute();
         return $stmt->rowCount() > 0;
     }
+
 
     public function getByEmail($email)
     {

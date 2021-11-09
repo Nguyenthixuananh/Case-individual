@@ -1,9 +1,11 @@
 <div class="container-fluid">
     <div class="navbar">
-        <a type="button" class="btn btn-outline-secondary mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=note-list">Note</a>
+        <a type="button" class="btn btn-dark" href="index.php?page=logout">Logout</a>
+
+        <a type="button" class="btn btn-outline-warning mt-3 mb-3 ps-5 pe-5 p-10" href="index.php?page=note-list">Note</a>
     </div>
-    <table class="table table-warning table-striped">
-        <thead class="table-dark">
+    <table class="table align-middle">
+        <thead class="table-info">
         <tr>
             <th>ID</th>
             <th>Name of type</th>
@@ -14,7 +16,7 @@
         <tbody>
         <?php if (isset($types)) : ?>
             <?php foreach ($types as $key => $type): ?>
-                <tr>
+                <tr class="text-capitalize">
                     <td><?php echo $key+1?></td>
                     <td><?php echo $type["type_name"] ?></td>
                     <td><a class="btn btn-danger" onclick="return confirm('Are you sure??')"

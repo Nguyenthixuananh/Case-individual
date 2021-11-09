@@ -1,14 +1,17 @@
 <?php
 
 include_once "Model/UserModel.php";
+include_once "User.php";
 
 class AuthController
 {
     protected $userModel;
+//    protected $user;
 
     public function __construct()
     {
         $this->userModel = new UserModel();
+//        $this->user = new User();
     }
 
     public function showFormLogin()
@@ -58,7 +61,22 @@ class AuthController
             "password" => $data['password']
 
         ];
+//        $this->checkRegister();
         $this->userModel->add($data2);
         header("location:index.php?page=login");
+    }
+
+    public function checkRegister($err)
+    {
+        $err = [];
+        if (empty($this->user->getName())) {
+            $err['name']= "Bạn chưa nhập tên";
+        }
+        if (empty($this->user->getEmail())) {
+            $err['name']= "Bạn chưa nhập email";
+        }
+        if (empty($this->user->getPassword())) {
+            $err['name']= "Bạn chưa nhập mật khẩu";
+        }
     }
 }
